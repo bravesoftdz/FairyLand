@@ -1,0 +1,2 @@
+include ':app', ':test', ':test-androidx', ':test-no-op'
+rootProject.name='TestInfo'

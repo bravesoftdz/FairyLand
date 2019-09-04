@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/easy_test_iv_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/easy_test_ic_brightness_low_black_24dp" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/easy_test_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <Button
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:id="@+id/easy_test_btn_leak"
+        android:layout_width="48dp"
+        android:text="内存"
+        android:layout_height="48dp"/>
+    <Button
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:id="@+id/easy_test_btn_block"
+        android:layout_width="48dp"
+        android:text="卡顿"
+        android:layout_height="48dp"/>
+    <Button
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:id="@+id/easy_test_btn_log"
+        android:layout_width="48dp"
+        android:text="日志"
+        android:layout_height="48dp"/>
+    <Button
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:id="@+id/easy_test_btn_crash"
+        android:layout_width="48dp"
+        android:text="崩溃"
+        android:layout_height="48dp"/>
+    <Button
+        android:layout_marginTop="6dp"
+        android:textSize="12sp"
+        android:id="@+id/easy_test_btn_http"
+        android:layout_width="48dp"
+        android:text="网络"
+        android:layout_height="48dp"/>
+    </LinearLayout>
+</LinearLayout>
