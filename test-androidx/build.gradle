@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-version = "1.0.2"
+version = "1.0.3"
 apply plugin: 'com.android.library'
 
 android {
@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 102
-        versionName "1.0.2"
+        versionCode 103
+        versionName "1.0.3"
 
         consumerProguardFiles 'consumer-rules.pro'
     }
@@ -33,7 +33,7 @@ dependencies {
     implementation 'com.github.markzhai:blockcanary-android:1.5.0'
     implementation  'fairy.easy.crashcanary:crashcanary-androidx:1.1.1'
     implementation  'fairy.easy.logcanary:logcanary-androidx:1.0.2'
-    implementation  'fairy.easy.httpcanary:httpcanary-androidx:1.0.4'
+    implementation  'fairy.easy.httpcanary:httpcanary-androidx:1.0.5'
 }
 def siteUrl = 'https://github.com/guxiaonian/FairyLand'
 def gitUrl = 'https://github.com/guxiaonian/FairyLand.git'
