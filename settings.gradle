@@ -1,2 +1,2 @@
-include ':app', ':test', ':test-androidx', ':test-no-op'
+include ':app', ':test-normal', ':test-androidx', ':test-no-op'
 rootProject.name='TestInfo'

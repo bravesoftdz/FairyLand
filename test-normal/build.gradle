@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-version = "1.0.1"
+version = "1.0.2"
 apply plugin: 'com.android.library'
 
 android {
@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 101
-        versionName "1.0.1"
+        versionCode 102
+        versionName "1.0.2"
         consumerProguardFiles 'consumer-rules.pro'
     }
 
@@ -98,7 +98,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "FairyLand"
-        name = "FairyLand"
+        name = "FairyLandNormal"
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

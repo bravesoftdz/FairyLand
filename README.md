@@ -4,7 +4,7 @@
 
 **`Android`简易测试输出**
 
-[![Download](https://api.bintray.com/packages/guxiaonian/FairyLand/FairyLand/images/download.svg) ](https://bintray.com/guxiaonian/FairyLand/FairyLand/_latestVersion)
+[![Download](https://api.bintray.com/packages/guxiaonian/FairyLand/FairyLandNormal/images/download.svg) ](https://bintray.com/guxiaonian/FairyLand/FairyLandNormal/_latestVersion)
 [![GitHub issues](https://img.shields.io/github/issues/guxiaonian/FairyLand.svg)](https://github.com/guxiaonian/FairyLand/issues)
 [![GitHub forks](https://img.shields.io/github/forks/guxiaonian/FairyLand.svg)](https://github.com/guxiaonian/FairyLand/network)
 [![GitHub stars](https://img.shields.io/github/stars/guxiaonian/FairyLand.svg)](https://github.com/guxiaonian/FairyLand/stargazers)
@@ -21,7 +21,7 @@
 # 依赖
 
 ```gradle
-debugImplementation  'fairy.easy.land:test:{latestVersion}'
+debugImplementation  'fairy.easy.land:test-normal:{latestVersion}'
 releaseImplementation  'fairy.easy.land:test-no-op:{latestVersion}'
 //androidX使用
 //debugImplementation  'fairy.easy.land:test-androidx:{latestVersion}'
