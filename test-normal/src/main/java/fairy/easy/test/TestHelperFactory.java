@@ -3,7 +3,6 @@ package fairy.easy.test;
 import android.app.Application;
 
 import com.github.moduth.blockcanary.BlockCanary;
-import com.github.moduth.blockcanary.BlockCanaryContext;
 import com.squareup.leakcanary.LeakCanary;
 
 import fairy.easy.crashcanary.CrashCanary;
@@ -16,7 +15,7 @@ public class TestHelperFactory {
         LogCanary.install(application);
         CrashCanary.install(application);
         HttpCanary.install(application);
-        BlockCanary.install(application, new BlockCanaryContext()).start();
+        BlockCanary.install(application, new HttpBlockCanary()).start();
         if (LeakCanary.isInAnalyzerProcess(application)) {
             return;
         }
