@@ -13,11 +13,6 @@
 </div>
 <br>
 
-# 效果展示
-
-![fairy_logo](./img/img.png)
-
-
 # 依赖
 
 ```gradle
