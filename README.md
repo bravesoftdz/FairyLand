@@ -10,7 +10,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/guxiaonian/FairyLand.svg)](https://github.com/guxiaonian/FairyLand/stargazers)
 [![GitHub license](https://img.shields.io/github/license/guxiaonian/FairyLand.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-![fairy_logo](./img/img.png)
+![fairy_logo](./img/show.png)
 </div>
 <br>
 
