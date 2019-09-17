@@ -5,12 +5,6 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.github.moduth.blockcanary.ui.DisplayActivity;
-import com.squareup.leakcanary.internal.DisplayLeakActivity;
-
-import fairy.easy.crashcanary.CrashInfoActivity;
-import fairy.easy.httpcanary.preview.PreviewActivity;
-import fairy.easy.logcanary.LogInfoActivity;
 import fairy.easy.test.ui.FloatIconPage;
 import fairy.easy.test.ui.FloatPageManager;
 import fairy.easy.test.ui.PageIntent;
