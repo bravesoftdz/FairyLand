@@ -1,6 +1,6 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
-version = "1.1.3"
+version = "1.1.5"
 apply plugin: 'com.android.library'
 
 android {
@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
-        versionCode 113
-        versionName "1.1.3"
+        versionCode 115
+        versionName "1.1.5"
         consumerProguardFiles 'consumer-rules.pro'
     }
 
@@ -26,13 +26,13 @@ android {
 
 dependencies {
     compileOnly 'com.android.support:appcompat-v7:28.0.0'
-    implementation ('com.squareup.leakcanary:leakcanary-android:1.5.1'){
+    api ('com.squareup.leakcanary:leakcanary-android:1.5.1'){
         exclude group: 'com.android.support'
     }
-    implementation 'com.github.markzhai:blockcanary-android:1.5.0'
-    implementation  'fairy.easy.crashcanary:crashcanary:1.1.1'
-    implementation  'fairy.easy.logcanary:logcanary:1.0.2'
-    implementation  'fairy.easy.httpcanary:httpcanary:1.0.5'
+    api 'com.github.markzhai:blockcanary-android:1.5.0'
+    api  'fairy.easy.crashcanary:crashcanary:1.1.1'
+    api  'fairy.easy.logcanary:logcanary:1.0.2'
+    api  'fairy.easy.httpcanary:httpcanary:1.0.5'
 }
 
 def siteUrl = 'https://github.com/guxiaonian/FairyLand'
@@ -42,7 +42,7 @@ install {
     repositories.mavenInstaller {
         pom {
             project {
-                packaging 'jar'
+                packaging 'aar'
                 name 'Android'
                 url siteUrl
                 licenses {
